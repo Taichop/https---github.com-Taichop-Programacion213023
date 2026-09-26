@@ -14,7 +14,7 @@ class Usuario:
 class ComputadorMantenimiento:
     #variable de clase para asignar un consecutivo a cada computador como su codigo
     contador_computador = 0
-    #variable de clase para almacenar los computadores en una lista 
+    #variable de clase para almacenar los computadores en una lista
     matriz_computadores = []
 
     def __init__(self,_codigo, _hora_entrada, _valor_hora):
